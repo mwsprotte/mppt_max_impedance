@@ -8,8 +8,9 @@ void setIO() {
 
   // Atribuindo variáveis na posição 0:
   D[0] = 60;
-  voltage[0] = 0;
-  z_in[0] = 0;
+  voltage[0] = 1;
+  z_in[0] = 1;
+  Pot_rate[0] = -1;
 
 // Avança o ponteiro
   k = 1;
